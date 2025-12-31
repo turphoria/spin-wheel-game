@@ -156,6 +156,22 @@ button{
   white-space: pre-line;
 }
 
+#pushBtn{
+  position: relative;
+  bottom: 4vh;
+}
+
+#infoIcon{
+  position: relative;
+  top: 5vh;
+  width: 6vh;
+}
+
+.spinner-container{
+  position: relative;
+  bottom: 3.5vh
+}
+
 
 /* 425px and below */
 @media (max-width: 425px) {
