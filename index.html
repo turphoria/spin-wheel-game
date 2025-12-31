@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PUSH</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  
+  <img src="icons8-info-80.png" id="infoIcon" onclick="">
+
+  <div id="infoModal" class="modal hidden">
+    <div class="modal-content">
+        <p>
+        Tap <strong>PUSH</strong><br />
+        to generate a prompt for yourself or someone else.<br /><br />
+        Best played with friends, family, coworkers, or even strangers!<br /><br />
+        Participate if you want.<br />
+        Pass if you don’t. <br/><br />
+        Most of all, HAVE FUN, BE SAFE, and BE KIND!<br /><br />
+        </p>
+        <button id="closeInfo">GOT IT!</button>
+    </div>
+  </div>
+
+  <h1 id="headerText">Dare to Push?</h1>
+
+  <div class="spinner-container">
+    <div id="spinner"></div>
+  </div>
+
+  <button id="pushBtn">PUSH</button>
+
+  <!-- Modal -->
+  <div id="promptModal" class="modal hidden">
+    <div class="modal-content">
+      <p id="promptTitle"></p>
+      <p id="additionalPromptText" class="hidden"></p>
+      <p id="promptText"></p>
+
+      <div id="buttonCollection">
+        <button id="revealAnswerButton" class="hidden">3 Guesses, then reveal</button>
+        <button id="spinAgainButton">Spin Again</button>
+        <button id="closeModal">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <audio id="clickSound" src="Ding - Sound Effect (HD).mp3" preload="auto"></audio>
+  <audio id="spinSound" src="Wheel of Fortune Spin the Wheel (1998).mp3" preload="auto" loop></audio>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
