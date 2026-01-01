@@ -158,12 +158,12 @@ button{
 
 #pushBtn{
   position: relative;
-  bottom: 4vh;
+  bottom: 6vh;
 }
 
 #infoIcon{
   position: relative;
-  top: 5vh;
+  top: 11vh;
   width: 6vh;
 }
 
